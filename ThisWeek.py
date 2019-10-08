@@ -66,3 +66,23 @@ With the three double-quotes.
 We'll be able to type as much as we like.
 Even 4 lines if we want, or 5, or 6.
 """)
+
+# examine closely the differences between the %r formatter and %s formatter
+print("Here are the months: %r" % months)
+print("Here are the months: %s" % months)
+
+# escape sequences redux
+tabbyCat = "\tI'm tabbed in."
+persianCat = "I'm split\non a line."
+backslashCat = "I'm \\ a \\ cat."
+topCat = """
+I'll do a list:
+\t* Cat Food
+\t* Fishies
+\t* Catnip\n\t*Grass
+"""
+
+print(tabbyCat)
+print(persianCat)
+print(backslashCat)
+print(topCat)
