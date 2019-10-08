@@ -47,3 +47,10 @@ print(formatter % (1, 2, 3, 4))
 print(formatter % ("one", "two", "three", "four"))
 print(formatter % (True, False, False, True))
 print(formatter % (formatter, formatter, formatter, formatter))
+
+# why do I use %r instead of %s in the above example?
+
+# which should I use on a regular basis?
+
+# why does %r sometimes give me single quotes around things?
+
