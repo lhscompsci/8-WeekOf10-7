@@ -103,3 +103,11 @@ print(topCat)
 # \v
 # \ooo
 # \xhh
+
+# What does the following code do:
+#   while True:
+#       for i in ["/", "-", "|", "\\", "|"]:
+#           print("%s\r" % i, end='')
+
+#  Can you use ''' instead of """ ?
+
