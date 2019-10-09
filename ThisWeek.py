@@ -104,10 +104,14 @@ print(topCat)
 # \ooo
 # \xhh
 
-# What does the following code do:
+# What does the following code block do:
 #   while True:
 #       for i in ["/", "-", "|", "\\", "|"]:
 #           print("%s\r" % i, end='')
 
 #  Can you use ''' instead of """ ?
 
+age = input("How old are you?")
+height = input("How tall are you?")
+
+print("So, you are %r old and %r tall." % (age, height))
